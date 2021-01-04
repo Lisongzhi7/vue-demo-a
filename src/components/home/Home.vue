@@ -3,7 +3,7 @@
 <div class="fd-head">
   <el-carousel :interval="4000" arrow="always" height="400px">
     <el-carousel-item v-for="(item,index) of imgList">
-      <img src="item.img">
+      <img :src="item.img">
     </el-carousel-item>
   </el-carousel>
 </div>
